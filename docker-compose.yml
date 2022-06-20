@@ -11,4 +11,4 @@ services:
       - type: bind
         source: ./postgresql.conf
         target: /etc/postgresql.conf
-    # command: ["postgres", "-c", "config_file=/etc/postgresql.conf"]
+    command: ["postgres", "-c", "config_file=/etc/postgresql.conf"]
